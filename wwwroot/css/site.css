@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    position: relative;
+    animation: moveText 3s infinite alternate ease-in-out;
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+}
+
+@keyframes moveText {
+    0% {
+        left: 0;
+        color: #ff00ff;
+    }
+
+    100% {
+        left: 20px;
+        color: #00ffff;
+    }
+}
+
+iframe {
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 400px;
+}
